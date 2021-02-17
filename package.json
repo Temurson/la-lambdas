@@ -1,0 +1,21 @@
+{
+  "name": "lambda-calculus",
+  "version": "1.0.0",
+  "description": "A TypeScript implementation of lambda calculus",
+  "repository": "https://github.com/DonIsaac/LambdaCalculus.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "authors": [
+    "Donald Isaac",
+    "Temur Saidkhodjaev"
+  ],
+  "license": "GNUv3",
+  "scripts": {
+    "build": "tsc",
+    "watch": "yarn build --watch"
+  },
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
