@@ -12,10 +12,17 @@
   "license": "GNUv3",
   "scripts": {
     "build": "tsc",
+    "test": "jest",
     "watch": "yarn build --watch"
   },
   "private": true,
   "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1",
     "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "tokenizr": "^1.6.4"
   }
 }
